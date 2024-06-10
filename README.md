@@ -1,50 +1,40 @@
-# Welcome to your Expo app 👋
+# To-Do-List-React-Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este repositório contém o código-fonte de uma aplicação de To-Do List desenvolvida em React Native com o framework Expo. A aplicação permite aos usuários adicionar, visualizar e remover tarefas da lista.
 
-## Get started
+## Funcionalidades
 
-1. Install dependencies
+- Adicionar novas tarefas
+- Remover tarefas
+- Persistência de dados localmente usando SQLite
 
-   ```bash
+## Requisitos
+
+- Node.js (v14 ou superior)
+- Expo CLI
+- Um dispositivo móvel ou emulador para testar a aplicação
+
+## Instalação
+
+Siga os passos abaixo para clonar e rodar o projeto localmente:
+
+1. Clone o repositório:
+
+   ```sh
+   git clone https://github.com/usuario/nome-do-repositorio.git
+   cd nome-do-repositorio
+   ```
+
+2. Instale as dependências do projeto:
+
+   ```sh
    npm install
    ```
 
-2. Start the app
+3. Inicie o servidor do Expo:
 
-   ```bash
-    npx expo start
+   ```sh
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+4. Siga as instruções no terminal para abrir o aplicativo em um dispositivo físico com o Expo Go ou em um emulador.
