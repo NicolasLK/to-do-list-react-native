@@ -1,4 +1,4 @@
-import openDB from "../db/db";
+import openDB from "../db";
 import { Tasks } from "@/components/Tasks";
 import { useEffect, useState } from "react";
 import {
@@ -24,7 +24,7 @@ export default function HomeScreen() {
   const [task, setTask] = useState<TasksProps | null>(null);
   const [taskItems, setTaskItems] = useState<TasksProps[]>([]);
 
-  function handleAddTask() {
+  async function handleAddTask() {
     if (task) {
       Keyboard.dismiss();
       setTaskItems([...taskItems, task]);
@@ -36,6 +36,12 @@ export default function HomeScreen() {
     const itemsCopy = taskItems.filter((item) => item.id !== id);
     setTaskItems(itemsCopy);
   }
+
+  useEffect(() => {
+    const rows = db.getAllSync("select * from tasks", []);
+
+    return;
+  }, []);
 
   return (
     <>

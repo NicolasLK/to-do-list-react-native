@@ -6,7 +6,7 @@ Este repositório contém o código-fonte de uma aplicação de To-Do List desen
 
 - Adicionar novas tarefas
 - Remover tarefas
-- Persistência de dados localmente usando SQLite
+- Persistência de dados localmente usando SQLite -> Não implementado
 
 ## Requisitos
 
